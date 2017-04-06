@@ -13,7 +13,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     void onClick(View view){
-        Toast.makeText(this, "작동해요!", Toast.LENGTH_SHORT).show();
-        //show 안하면 안보인댜! Toast.LENGTH_SHORT도 1000 대신 간지나게?^^호호
+        switch (view.getId()){
+            case R.id.button1:
+                Toast.makeText(this, "썸바디 헬ㅍ믜~~~!!~!~!", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button2:
+                Toast.makeText(this, "모해~? 지금은~?!", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button3:
+                Toast.makeText(this, "여기는 지옥인걸까....?", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button4:
+                Toast.makeText(this, "하ㅣㅎ갛가학핳각학", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button5:
+                Toast.makeText(this, "지려따리~ 오져따리~ ! ! !", Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                Toast.makeText(this, "뭐라구여?!!?!?!?", Toast.LENGTH_SHORT).show();
+                break;
+
+        }
     }
 }
