@@ -17,6 +17,13 @@
         android:text="청 시뮬레이터"
         />
 
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/friend_visual"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chu_1" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
